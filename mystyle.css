@@ -103,6 +103,7 @@ height: 500px;
     height: 760px;
     align-items: center;
 }
+.tabela h1{ text-align: center;}
 #footer {
     background-color: #ffffff;
   position: fixed;
