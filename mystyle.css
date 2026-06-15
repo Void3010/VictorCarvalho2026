@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:#841111;
+    font-family: arial;
+    
+      }    
+/*Inicio do cabecalho */
+#header{
+    width: 1000px;
+	height: 120px;
+	margin: 0px auto;/*centralizou o header*/
+	background:#ffffff;
+	   }		
+
+#nav{ 
+    list-style:none; /*retira marcadores*/
+    padding-left: 0px;
+    display: block;
+    float: left;
+    margin-left: 50px;	
+    margin-top:60px;	  
+    }	
+#nav li {
+    float:left;
+    margin-left: 40px;/*alinha do lado um do outro*/
+    }
+#nav a {
+    text-decoration: none;/*retira sublinhado dos links*/
+    text-transform: uppercase;
+    padding-top: 8px;
+    color:#000000;
+    font-weight: bold;
+        }	
+#nav a:hover{
+    border-bottom: 5px solid #FF0000; /*deixa colorido quando o mouse passa debaixo de um link*/
+       }
+ul#nav a.ativa{
+    border-bottom: 5px solid #FF0000; /*quando esta naquela pagina alinha fica aparente*/
+     }
+.simples{
+background-color: #ffffff;
+margin: 0px auto;
+width: 550px;
+height: 400px;
+
+}
+.simples p{
+    margin: 20px;
+}
+
+.tab{
+background-color: #ffffff;
+margin: 0px auto;
+width: 550px;
+height: 400px;
+
+}
+
+.tab p{
+    margin: 20px;
+}
+
+.processo{
+background-color: #ffffff;
+margin: 0px auto;
+width: 550px;
+height: 500px;
+
+}
+
+.processo p{
+    margin: 20px;
+}
+
+.fim{
+    background-color: #ffffff;
+    margin: 0px auto;
+    width: 700px;
+    height: 400px;
+    
+    
+}
+.fim h1{
+    text-align: center;
+}
+.creditos {
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+}
+
+.pessoa {
+    width: 300px;
+    margin-left: 30px;
+}
+.tabela {
+    background-color: #ffffff;
+    margin: 0px auto;
+    width: 500px;
+    height: 760px;
+    align-items: center;
+}
+#footer {
+    background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+#footer h5{
+    text-align: center;
+    margin-top: 10px;
+}
+.galeria {
+    background-color: #ffffff;
+    margin: 0px auto;
+    width: 550px;
+    height: 500px;
+    }
+
+.home{
+background-color: #ffffff;
+    margin: 0px auto;
+    width: 500px;
+    height: 200px;
+}
+
+.home p{
+    font-weight: bold;
+}
